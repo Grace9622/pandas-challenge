@@ -1,0 +1,223 @@
+
+Student ID	student_name	gender	grade	school_name	reading_score	math_score	School ID	type	size	budget
+0	0	Paul Bradley	M	9th	Huang High School	66	79	0	District	2917	1910635
+1	1	Victor Smith	M	12th	Huang High School	94	61	0	District	2917	1910635
+2	2	Kevin Rodriguez	M	12th	Huang High School	90	60	0	District	2917	1910635
+3	3	Dr. Richard Scott	M	12th	Huang High School	67	58	0	District	2917	1910635
+4	4	Bonnie Ray	F	9th	Huang High School	97	84	0	District	2917	1910635
+15
+39170
+24649428
+78.98537145774827
+81.87784018381414
+74.9808526933878
+85.80546336482001
+65.17232575950983
+15
+school_name
+Bailey High School       4976
+Johnson High School      4761
+Hernandez High School    4635
+Rodriguez High School    3999
+Figueroa High School     2949
+Name: count, dtype: int64
+school_name
+Bailey High School      3124928.0
+Cabrera High School     1081356.0
+Figueroa High School    1884411.0
+Ford High School        1763916.0
+Griffin High School      917500.0
+Name: budget, dtype: float64
+school_name
+Bailey High School       628.0
+Cabrera High School      582.0
+Figueroa High School     639.0
+Ford High School         644.0
+Griffin High School      625.0
+Hernandez High School    652.0
+Holden High School       581.0
+Huang High School        655.0
+Johnson High School      650.0
+Pena High School         609.0
+Rodriguez High School    637.0
+Shelton High School      600.0
+Thomas High School       638.0
+Wilson High School       578.0
+Wright High School       583.0
+dtype: float64
+school_name
+Bailey High School      77.048432
+Cabrera High School     83.061895
+Figueroa High School    76.711767
+Ford High School        77.102592
+Griffin High School     83.351499
+Name: math_score, dtype: float64
+school_name
+Bailey High School      81.033963
+Cabrera High School     83.975780
+Figueroa High School    81.158020
+Ford High School        80.746258
+Griffin High School     83.816757
+Name: reading_score, dtype: float64
+school_name
+Bailey High School       66.680064
+Cabrera High School      94.133477
+Figueroa High School     65.988471
+Ford High School         68.309602
+Griffin High School      93.392371
+Hernandez High School    66.752967
+Holden High School       92.505855
+Huang High School        65.683922
+Johnson High School      66.057551
+Pena High School         94.594595
+Rodriguez High School    66.366592
+Shelton High School      93.867121
+Thomas High School       93.272171
+Wilson High School       93.867718
+Wright High School       93.333333
+Name: count, dtype: float64
+school_name
+Bailey High School       81.933280
+Cabrera High School      97.039828
+Figueroa High School     80.739234
+Ford High School         79.299014
+Griffin High School      97.138965
+Hernandez High School    80.862999
+Holden High School       96.252927
+Huang High School        81.316421
+Johnson High School      81.222432
+Pena High School         95.945946
+Rodriguez High School    80.220055
+Shelton High School      95.854628
+Thomas High School       97.308869
+Wilson High School       96.539641
+Wright High School       96.611111
+Name: count, dtype: float64
+school_name
+Bailey High School       66.696530
+Cabrera High School      94.185705
+Figueroa High School     66.015849
+Ford High School         68.338554
+Griffin High School      93.458542
+Hernandez High School    66.770413
+Holden High School       92.731271
+Huang High School        65.711799
+Johnson High School      66.074611
+Pena High School         94.694331
+Rodriguez High School    66.386652
+Shelton High School      93.921553
+Thomas High School       93.331687
+Wilson High School       93.910004
+Wright High School       93.387006
+Name: count, dtype: float64
+15
+School Type	Total Students	Total School Budget	Per Student Budget	Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing Rate
+school_name									
+Bailey High School	District	4976	3124928.0	628.0	77.048432	81.033963	66.680064	81.933280	66.696530
+Cabrera High School	Charter	1858	1081356.0	582.0	83.061895	83.975780	94.133477	97.039828	94.185705
+Figueroa High School	District	2949	1884411.0	639.0	76.711767	81.158020	65.988471	80.739234	66.015849
+Ford High School	District	2739	1763916.0	644.0	77.102592	80.746258	68.309602	79.299014	68.338554
+Griffin High School	Charter	1468	917500.0	625.0	83.351499	83.816757	93.392371	97.138965	93.458542
+School Type	Total Students	Total School Budget	Per Student Budget	Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing Rate
+school_name									
+Pena High School	Charter	962	585858.0	609.0	83.839917	84.044699	94.594595	95.945946	94.694331
+Cabrera High School	Charter	1858	1081356.0	582.0	83.061895	83.975780	94.133477	97.039828	94.185705
+Wilson High School	Charter	2283	1319574.0	578.0	83.274201	83.989488	93.867718	96.539641	93.910004
+Shelton High School	Charter	1761	1056600.0	600.0	83.359455	83.725724	93.867121	95.854628	93.921553
+Griffin High School	Charter	1468	917500.0	625.0	83.351499	83.816757	93.392371	97.138965	93.458542
+School Type	Total Students	Total School Budget	Per Student Budget	Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing Rate
+school_name									
+Pena High School	Charter	962	$585,858.00	$609.00	83.839917	84.044699	94.594595	95.945946	94.694331
+Cabrera High School	Charter	1858	$1,081,356.00	$582.00	83.061895	83.975780	94.133477	97.039828	94.185705
+Wilson High School	Charter	2283	$1,319,574.00	$578.00	83.274201	83.989488	93.867718	96.539641	93.910004
+Shelton High School	Charter	1761	$1,056,600.00	$600.00	83.359455	83.725724	93.867121	95.854628	93.921553
+Griffin High School	Charter	1468	$917,500.00	$625.00	83.351499	83.816757	93.392371	97.138965	93.458542
+Wright High School	Charter	1800	$1,049,400.00	$583.00	83.682222	83.955000	93.333333	96.611111	93.387006
+Thomas High School	Charter	1635	$1,043,130.00	$638.00	83.418349	83.848930	93.272171	97.308869	93.331687
+Holden High School	Charter	427	$248,087.00	$581.00	83.803279	83.814988	92.505855	96.252927	92.731271
+Ford High School	District	2739	$1,763,916.00	$644.00	77.102592	80.746258	68.309602	79.299014	68.338554
+Hernandez High School	District	4635	$3,022,020.00	$652.00	77.289752	80.934412	66.752967	80.862999	66.770413
+Bailey High School	District	4976	$3,124,928.00	$628.00	77.048432	81.033963	66.680064	81.933280	66.696530
+Rodriguez High School	District	3999	$2,547,363.00	$637.00	76.842711	80.744686	66.366592	80.220055	66.386652
+Johnson High School	District	4761	$3,094,650.00	$650.00	77.072464	80.966394	66.057551	81.222432	66.074611
+Figueroa High School	District	2949	$1,884,411.00	$639.00	76.711767	81.158020	65.988471	80.739234	66.015849
+Huang High School	District	2917	$1,910,635.00	$655.00	76.629414	81.182722	65.683922	81.316421	65.711799
+9th	10th	11th	12th
+school_name				
+Bailey High School	77.083676	76.996772	77.515588	76.492218
+Cabrera High School	83.094697	83.154506	82.765560	83.277487
+Figueroa High School	76.403037	76.539974	76.884344	77.151369
+Ford High School	77.361345	77.672316	76.918058	76.179963
+Griffin High School	82.044010	84.229064	83.842105	83.356164
+Hernandez High School	77.438495	77.337408	77.136029	77.186567
+Holden High School	83.787402	83.429825	85.000000	82.855422
+Huang High School	77.027251	75.908735	76.446602	77.225641
+Johnson High School	77.187857	76.691117	77.491653	76.863248
+Pena High School	83.625455	83.372000	84.328125	84.121547
+Rodriguez High School	76.859966	76.612500	76.395626	77.690748
+Shelton High School	83.420755	82.917411	83.383495	83.778976
+Thomas High School	83.590022	83.087886	83.498795	83.497041
+Wilson High School	83.085578	83.724422	83.195326	83.035794
+Wright High School	83.264706	84.010288	83.836782	83.644986
+9th	10th	11th	12th
+school_name				
+Bailey High School	81.303155	80.907183	80.945643	80.912451
+Cabrera High School	83.676136	84.253219	83.788382	84.287958
+Figueroa High School	81.198598	81.408912	80.640339	81.384863
+Ford High School	80.632653	81.262712	80.403642	80.662338
+Griffin High School	83.369193	83.706897	84.288089	84.013699
+Hernandez High School	80.866860	80.660147	81.396140	80.857143
+Holden High School	83.677165	83.324561	83.815534	84.698795
+Huang High School	81.290284	81.512386	81.417476	80.305983
+Johnson High School	81.260714	80.773431	80.616027	81.227564
+Pena High School	83.807273	83.612000	84.335938	84.591160
+Rodriguez High School	80.993127	80.629808	80.864811	80.376426
+Shelton High School	84.122642	83.441964	84.373786	82.781671
+Thomas High School	83.728850	84.254157	83.585542	83.831361
+Wilson High School	83.939778	84.021452	83.764608	84.317673
+Wright High School	83.833333	83.812757	84.156322	84.073171
+School Type	Total Students	Total School Budget	Per Student Budget	Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing Rate
+school_name									
+Bailey High School	District	4976	3124928.0	628.0	77.048432	81.033963	66.680064	81.933280	66.696530
+Cabrera High School	Charter	1858	1081356.0	582.0	83.061895	83.975780	94.133477	97.039828	94.185705
+Figueroa High School	District	2949	1884411.0	639.0	76.711767	81.158020	65.988471	80.739234	66.015849
+Ford High School	District	2739	1763916.0	644.0	77.102592	80.746258	68.309602	79.299014	68.338554
+Griffin High School	Charter	1468	917500.0	625.0	83.351499	83.816757	93.392371	97.138965	93.458542
+Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing Rate	Spending Ranges (Per Student)
+school_name						
+Bailey High School	77.048432	81.033963	66.680064	81.933280	66.696530	$615-645
+Cabrera High School	83.061895	83.975780	94.133477	97.039828	94.185705	<$585
+Figueroa High School	76.711767	81.158020	65.988471	80.739234	66.015849	$615-645
+Ford High School	77.102592	80.746258	68.309602	79.299014	68.338554	$615-645
+Griffin High School	83.351499	83.816757	93.392371	97.138965	93.458542	$615-645
+Hernandez High School	77.289752	80.934412	66.752967	80.862999	66.770413	$645-675
+Holden High School	83.803279	83.814988	92.505855	96.252927	92.731271	<$585
+Huang High School	76.629414	81.182722	65.683922	81.316421	65.711799	$645-675
+Johnson High School	77.072464	80.966394	66.057551	81.222432	66.074611	$645-675
+Pena High School	83.839917	84.044699	94.594595	95.945946	94.694331	$585-615
+Rodriguez High School	76.842711	80.744686	66.366592	80.220055	66.386652	$615-645
+Shelton High School	83.359455	83.725724	93.867121	95.854628	93.921553	$585-615
+Thomas High School	83.418349	83.848930	93.272171	97.308869	93.331687	$615-645
+Wilson High School	83.274201	83.989488	93.867718	96.539641	93.910004	<$585
+Wright High School	83.682222	83.955000	93.333333	96.611111	93.387006	<$585
+Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing Rate
+Spending Ranges (Per Student)					
+<$585	83.455399	83.933814	93.460096	96.610877	93.553497
+$585-615	83.599686	83.885211	94.230858	95.900287	94.307942
+$615-645	79.079225	81.891436	75.668212	86.106569	75.704636
+$645-675	76.997210	81.027843	66.164813	81.133951	66.185607
+School Type	Total Students	Total School Budget	Per Student Budget	Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing Rate	Spending Ranges (Per Student)
+school_name										
+Bailey High School	District	4976	3124928.0	628.0	77.048432	81.033963	66.680064	81.933280	66.696530	$615-645
+Cabrera High School	Charter	1858	1081356.0	582.0	83.061895	83.975780	94.133477	97.039828	94.185705	<$585
+Figueroa High School	District	2949	1884411.0	639.0	76.711767	81.158020	65.988471	80.739234	66.015849	$615-645
+Ford High School	District	2739	1763916.0	644.0	77.102592	80.746258	68.309602	79.299014	68.338554	$615-645
+Griffin High School	Charter	1468	917500.0	625.0	83.351499	83.816757	93.392371	97.138965	93.458542	$615-645
+str
+School Type	Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing Rate	Spending Ranges (Per Student)
+school_name							
+Bailey High School	District	77.048432	81.033963	66.680064	81.933280	66.696530	$615-645
+Cabrera High School	Charter	83.061895	83.975780	94.133477	97.039828	94.185705	<$585
+Figueroa High School	District	76.711767	81.158020	65.988471	80.739234	66.015849	$615-645
+Ford High School	District	77.102592	80.746258	68.309602	79.299014	68.338554	$615-645
+Griffin High School	Charter	83.351499	83.816757	93.392371	97.138965	93.458542	$615-645
